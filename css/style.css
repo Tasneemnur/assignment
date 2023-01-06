@@ -10,7 +10,7 @@
     background-image: url(../images/banner1.png);
     background-size: cover;
     text-align: right;
-    padding: 200px 137px;
+    padding: 200px 156px;
 }
 .heading-title{
     font-size: 55px;
@@ -36,9 +36,8 @@
 }
 .failure{
     display: flex;
-    gap: 75px;
+    gap: 85px;
     margin-top: 100px;
-    margin-bottom: 100px;
     margin-left: 150px;
     margin-right: 280px;
 }
@@ -46,7 +45,7 @@
     margin: 250px 0px;
 }
 .title{
-    font-size: 30px;
+    font-size: 34px;
 }
 .failure-description{
     margin: 20px 0px;
@@ -56,4 +55,57 @@
     /* list-style: none; */
     margin: 10px 0px;
     color: #444343;
+}
+.plans{
+    /* border: 2px solid red; */
+}
+.plans-title{
+    text-align: center;
+    font-size: 34px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.plan{
+    text-align: center;
+}
+
+.plan-heading{
+    margin: 12px 0px;
+}
+.plan p{
+    color: #444343;;
+}
+#grad {
+    width: 1000px;
+    height: 300px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(../images/watch.png);
+    margin: 15px auto;
+    border-radius: 8px;
+   
+}
+.call-title{
+padding-top: 70px;
+padding-left: 50px;
+padding-right: 500px;
+padding-bottom: 20px;
+font-weight: 800;
+font-size: 38px;
+color: white;
+}
+.second-btn{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    color: #ef6b07;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 17px;
+    border: none;
+    margin-left: 50px;
 }
