@@ -40,6 +40,7 @@
     margin-top: 100px;
     margin-left: 135px;
     margin-right: 130px;
+    margin-bottom: 120px;
 }
 .main{
     margin: 200px 0px;
@@ -53,7 +54,6 @@
     font-size: 15px;
 }
 .list{
-    /* list-style: none; */
     margin: 10px 0px;
     color: #444343;
     font-size: 15px;
@@ -62,9 +62,8 @@
 .list i{
     margin-right: 10px;
 }
-.plans{
-    /* border: 2px solid red; */
-}
+
+
 .plans-title{
     text-align: center;
     font-size: 34px;
@@ -87,22 +86,54 @@
     color: #444343;
     font-size: 19px;
 }
+
+.hobbies-title{
+    text-align: center;
+    font-size: 34px;
+}
+.hobbies-content{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.hobby{
+    width: 19%;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 2px 3px 8px 1px rgb(189, 185, 185);
+  }
+  .hobby:hover{
+    box-shadow: -2px -3px 8px 1px rgb(189, 185, 185);
+  }
+  .hobby img{
+    width: 180px;
+    height: 180px;
+  }
+  .hobbies-heading{
+    font-size: 20px;
+    margin: 15px 0px;
+  }
+  .hobby p{
+    font-size: 15px;
+    color: #444343;
+  }
 #grad {
     width: 1000px;
     height: 300px;
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(../images/watch.png);
     margin: 100px auto;
     border-radius: 8px;
-   
 }
 .call-title{
-padding-top: 70px;
-padding-left: 50px;
-padding-right: 500px;
-padding-bottom: 20px;
-font-weight: 800;
-font-size: 38px;
-color: white;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 500px;
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 38px;
+    color: white;
 }
 .second-btn{
     width: 120px;
