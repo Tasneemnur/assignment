@@ -38,7 +38,7 @@
     display: flex;
     gap: 85px;
     margin-top: 100px;
-    margin-left: 150px;
+    margin-left: 135px;
     margin-right: 130px;
 }
 .main{
@@ -57,6 +57,10 @@
     margin: 10px 0px;
     color: #444343;
     font-size: 15px;
+    list-style: none;
+}
+.list i{
+    margin-right: 10px;
 }
 .plans{
     /* border: 2px solid red; */
