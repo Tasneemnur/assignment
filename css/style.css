@@ -20,7 +20,7 @@
    padding-left: 754px;
    padding-top: 15px;
    padding-bottom: 25px;
-   font-size: 12px;
+   font-size: 15px;
    color: #444343;
 }
 .btn-primary{
@@ -50,11 +50,13 @@
 .failure-description{
     margin: 20px 0px;
     color: #444343;
+    font-size: 15px;
 }
 .list{
     /* list-style: none; */
     margin: 10px 0px;
     color: #444343;
+    font-size: 15px;
 }
 .plans{
     /* border: 2px solid red; */
@@ -78,13 +80,14 @@
     margin: 12px 0px;
 }
 .plan p{
-    color: #444343;;
+    color: #444343;
+    font-size: 19px;
 }
 #grad {
     width: 1000px;
     height: 300px;
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(../images/watch.png);
-    margin: 15px auto;
+    margin: 100px auto;
     border-radius: 8px;
    
 }
@@ -108,4 +111,54 @@ color: white;
     font-size: 17px;
     border: none;
     margin-left: 50px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.information{
+    display: flex;
+    gap: 350px;
+    padding-left: 202px;
+    padding-right: 202px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.future-title{
+    font-size: 40px;
+}
+.future-description{
+    margin: 22px 0px;
+}
+.phone-info{
+    margin: 17px 0px;
+}
+.my-socials{
+    display: flex;
+    gap: 15px;
+    margin-top: 22px;
+}
+.subscribe-title{
+    margin-bottom: 22px;
+}
+form input{
+    width: 260px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    border: 2px solid white;
+    padding: 0px 15px;
+}
+.subscribe-btn{
+    width: 140px;
+    height: 55px;
+    background-color: white;
+    color: #ef6b07;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 17px;
+    border: none;
+    margin-top: 12px;
 }
